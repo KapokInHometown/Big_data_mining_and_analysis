@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 读取CSV文件
-df = pd.read_csv('D:\电子科技大学\大三上\大数据挖掘与分析——鲁才\天气自动传感器大数据（Beach Water Quality）挖掘/data.csv')
+df = pd.read_csv('D:\电子科技大学\大三上\大数据挖掘与分析——鲁才\Big_data_mining_and_analysis\天气自动传感器大数据（Beach Water Quality）挖掘/data.csv')
 
 # 数据清洗：填补缺失值
 df['Transducer_Depth'].fillna(df['Transducer_Depth'].mean(), inplace=True)
@@ -26,7 +26,7 @@ plt.ylabel('Water Temperature (°C)')
 plt.title('Water Temperature over Time by Beach')
 plt.legend()
 #plt.show()
-plt.savefig('D:\电子科技大学\大三上\大数据挖掘与分析——鲁才\天气自动传感器大数据（Beach Water Quality）挖掘\data_svg.svg', dpi=600)
+plt.savefig('D:\电子科技大学\大三上\大数据挖掘与分析——鲁才\Big_data_mining_and_analysis\天气自动传感器大数据（Beach Water Quality）挖掘\data_svg.svg', dpi=600)
 
 # 保存为新CSV文件
-df.to_csv('D:\电子科技大学\大三上\大数据挖掘与分析——鲁才\天气自动传感器大数据（Beach Water Quality）挖掘/data_done.csv', index=False)
+df.to_csv('D:\电子科技大学\大三上\大数据挖掘与分析——鲁才\Big_data_mining_and_analysis\天气自动传感器大数据（Beach Water Quality）挖掘/data_done.csv', index=False)
