@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
+from tensorflow.keras.layers import LSTM, Dense, Input
 
 # 读取数据
 data = pd.read_csv('D:\电子科技大学\大三上\大数据挖掘与分析——鲁才\Big_data_mining_and_analysis\天气自动传感器大数据（Beach Water Quality）挖掘\processed_data.csv')
@@ -21,7 +21,7 @@ features = ['Water_Temperature', 'Turbidity', 'Wave_Height', 'Wave_Period', 'Bat
 target = 'Water_Temperature'
 
 # 填补缺失值（如果有）
-data[features] = data[features].fillna(method='ffill')
+data[features] = data[features].ffill()
 
 # 标准化特征值
 scaler = StandardScaler()
@@ -77,7 +77,8 @@ print(f"Mean Squared Error (Support Vector Regression): {mean_squared_error(y_te
 print("\n--- LSTM ---")
 # 构建 LSTM 模型
 lstm_model = Sequential([
-    LSTM(64, activation='relu', input_shape=(window_size, len(features))),
+    Input(shape=(window_size, len(features))),  # 定义输入形状
+    LSTM(64, activation='relu'),
     Dense(1)
 ])
 
