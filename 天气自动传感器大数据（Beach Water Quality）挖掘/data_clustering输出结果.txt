@@ -1,0 +1,3528 @@
+E:\Anaconda\python.exe "D:\电子科技大学\大三上\大数据挖掘与分析——鲁才\Big_data_mining_and_analysis\大数据挖掘与分析(Python)\data.clustering.py" 
+Dataset contains NaN values. Filling or dropping them...
+Data types after conversion:
+Beach_Name                    object
+Measurement_Date_And_Time      int16
+Water_Temperature            float64
+Turbidity                    float64
+Transducer_Depth             float64
+Wave_Height                  float64
+Wave_Period                  float64
+Battery_Life                 float64
+Measurement_ID                 int32
+Month                        float64
+Weekday                      float64
+Hour                         float64
+Season                          int8
+dtype: object
+Silhouette Score for K-Means: 0.11669036499170618
+Silhouette Score for DBSCAN: -0.41088902281422623
+
+Cluster info for K-Means:
+Cluster 0 contains 5 samples.
+Beach_Name
+Ohio Street Beach    4059
+Montrose Beach       1682
+Calumet Beach        1256
+Osterman Beach        915
+Rainbow Beach         742
+Name: count, dtype: int64
+Cluster 1 contains 6 samples.
+Beach_Name
+Montrose Beach       135
+Calumet Beach        132
+Osterman Beach       115
+Ohio Street Beach     87
+63rd Street Beach     75
+Rainbow Beach         49
+Name: count, dtype: int64
+Cluster 2 contains 6 samples.
+Beach_Name
+Montrose Beach       2176
+Ohio Street Beach    2132
+Calumet Beach        2074
+Osterman Beach       1458
+Rainbow Beach         912
+63rd Street Beach     858
+Name: count, dtype: int64
+Cluster 3 contains 6 samples.
+Beach_Name
+Montrose Beach       908
+Ohio Street Beach    832
+Calumet Beach        712
+Osterman Beach       562
+63rd Street Beach    381
+Rainbow Beach        298
+Name: count, dtype: int64
+Cluster 4 contains 6 samples.
+Beach_Name
+Calumet Beach        1061
+Ohio Street Beach     988
+Montrose Beach        561
+Rainbow Beach         546
+63rd Street Beach     210
+Osterman Beach        166
+Name: count, dtype: int64
+Cluster 5 contains 6 samples.
+Beach_Name
+Calumet Beach        2335
+Montrose Beach       1807
+63rd Street Beach    1624
+Ohio Street Beach    1204
+Osterman Beach        807
+Rainbow Beach         308
+Name: count, dtype: int64
+
+Cluster info for DBSCAN:
+Cluster -1 contains 6 samples.
+Beach_Name
+Calumet Beach        6278
+Montrose Beach       6007
+Ohio Street Beach    5415
+Osterman Beach       3363
+63rd Street Beach    2717
+Rainbow Beach        2465
+Name: count, dtype: int64
+Cluster 0 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 1 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 2 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 3 contains 1 samples.
+Beach_Name
+63rd Street Beach    10
+Name: count, dtype: int64
+Cluster 4 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 5 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 6 contains 1 samples.
+Beach_Name
+63rd Street Beach    12
+Name: count, dtype: int64
+Cluster 7 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 8 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 9 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 10 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 11 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 12 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 13 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 14 contains 1 samples.
+Beach_Name
+63rd Street Beach    7
+Name: count, dtype: int64
+Cluster 15 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 16 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 17 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 18 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 19 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 20 contains 1 samples.
+Beach_Name
+63rd Street Beach    9
+Name: count, dtype: int64
+Cluster 21 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 22 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 23 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 24 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 25 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 26 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 27 contains 1 samples.
+Beach_Name
+63rd Street Beach    8
+Name: count, dtype: int64
+Cluster 28 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 29 contains 1 samples.
+Beach_Name
+63rd Street Beach    7
+Name: count, dtype: int64
+Cluster 30 contains 1 samples.
+Beach_Name
+63rd Street Beach    11
+Name: count, dtype: int64
+Cluster 31 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 32 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 33 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 34 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 35 contains 1 samples.
+Beach_Name
+63rd Street Beach    12
+Name: count, dtype: int64
+Cluster 36 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 37 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 38 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 39 contains 1 samples.
+Beach_Name
+63rd Street Beach    13
+Name: count, dtype: int64
+Cluster 40 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 41 contains 1 samples.
+Beach_Name
+63rd Street Beach    8
+Name: count, dtype: int64
+Cluster 42 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 43 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 44 contains 1 samples.
+Beach_Name
+63rd Street Beach    13
+Name: count, dtype: int64
+Cluster 45 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 46 contains 1 samples.
+Beach_Name
+63rd Street Beach    7
+Name: count, dtype: int64
+Cluster 47 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 48 contains 1 samples.
+Beach_Name
+63rd Street Beach    8
+Name: count, dtype: int64
+Cluster 49 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 50 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 51 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 52 contains 1 samples.
+Beach_Name
+63rd Street Beach    10
+Name: count, dtype: int64
+Cluster 53 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 54 contains 1 samples.
+Beach_Name
+63rd Street Beach    9
+Name: count, dtype: int64
+Cluster 55 contains 1 samples.
+Beach_Name
+63rd Street Beach    4
+Name: count, dtype: int64
+Cluster 56 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 57 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 58 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 59 contains 1 samples.
+Beach_Name
+63rd Street Beach    9
+Name: count, dtype: int64
+Cluster 60 contains 1 samples.
+Beach_Name
+63rd Street Beach    7
+Name: count, dtype: int64
+Cluster 61 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 62 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 63 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 64 contains 1 samples.
+Beach_Name
+63rd Street Beach    7
+Name: count, dtype: int64
+Cluster 65 contains 1 samples.
+Beach_Name
+63rd Street Beach    6
+Name: count, dtype: int64
+Cluster 66 contains 1 samples.
+Beach_Name
+63rd Street Beach    5
+Name: count, dtype: int64
+Cluster 67 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 68 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 69 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 70 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 71 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 72 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 73 contains 1 samples.
+Beach_Name
+Calumet Beach    4
+Name: count, dtype: int64
+Cluster 74 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 75 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 76 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 77 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 78 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 79 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 80 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 81 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 82 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 83 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 84 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 85 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 86 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 87 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 88 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 89 contains 1 samples.
+Beach_Name
+Calumet Beach    11
+Name: count, dtype: int64
+Cluster 90 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 91 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 92 contains 1 samples.
+Beach_Name
+Calumet Beach    16
+Name: count, dtype: int64
+Cluster 93 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 94 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 95 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 96 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 97 contains 1 samples.
+Beach_Name
+Calumet Beach    11
+Name: count, dtype: int64
+Cluster 98 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 99 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 100 contains 1 samples.
+Beach_Name
+Calumet Beach    11
+Name: count, dtype: int64
+Cluster 101 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 102 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 103 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 104 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 105 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 106 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 107 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 108 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 109 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 110 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 111 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 112 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 113 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 114 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 115 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 116 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 117 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 118 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 119 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 120 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 121 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 122 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 123 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 124 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 125 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 126 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 127 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 128 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 129 contains 1 samples.
+Beach_Name
+Calumet Beach    12
+Name: count, dtype: int64
+Cluster 130 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 131 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 132 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 133 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 134 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 135 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 136 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 137 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 138 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 139 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 140 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 141 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 142 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 143 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 144 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 145 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 146 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 147 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 148 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 149 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 150 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 151 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 152 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 153 contains 1 samples.
+Beach_Name
+Calumet Beach    11
+Name: count, dtype: int64
+Cluster 154 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 155 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 156 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 157 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 158 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 159 contains 1 samples.
+Beach_Name
+Calumet Beach    11
+Name: count, dtype: int64
+Cluster 160 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 161 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 162 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 163 contains 1 samples.
+Beach_Name
+Calumet Beach    13
+Name: count, dtype: int64
+Cluster 164 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 165 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 166 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 167 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 168 contains 1 samples.
+Beach_Name
+Calumet Beach    12
+Name: count, dtype: int64
+Cluster 169 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 170 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 171 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 172 contains 1 samples.
+Beach_Name
+Calumet Beach    12
+Name: count, dtype: int64
+Cluster 173 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 174 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 175 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 176 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 177 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 178 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 179 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 180 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 181 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 182 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 183 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 184 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 185 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 186 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 187 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 188 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 189 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 190 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 191 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 192 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 193 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 194 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 195 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 196 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 197 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 198 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 199 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 200 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 201 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 202 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 203 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 204 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 205 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 206 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 207 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 208 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 209 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 210 contains 1 samples.
+Beach_Name
+Calumet Beach    12
+Name: count, dtype: int64
+Cluster 211 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 212 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 213 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 214 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 215 contains 1 samples.
+Beach_Name
+Calumet Beach    13
+Name: count, dtype: int64
+Cluster 216 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 217 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 218 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 219 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 220 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 221 contains 1 samples.
+Beach_Name
+Calumet Beach    7
+Name: count, dtype: int64
+Cluster 222 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 223 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 224 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 225 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 226 contains 1 samples.
+Beach_Name
+Calumet Beach    16
+Name: count, dtype: int64
+Cluster 227 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 228 contains 1 samples.
+Beach_Name
+Calumet Beach    9
+Name: count, dtype: int64
+Cluster 229 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 230 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 231 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 232 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 233 contains 1 samples.
+Beach_Name
+Calumet Beach    14
+Name: count, dtype: int64
+Cluster 234 contains 1 samples.
+Beach_Name
+Calumet Beach    10
+Name: count, dtype: int64
+Cluster 235 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 236 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 237 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 238 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 239 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 240 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 241 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 242 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 243 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 244 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 245 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 246 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 247 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 248 contains 1 samples.
+Beach_Name
+Calumet Beach    6
+Name: count, dtype: int64
+Cluster 249 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 250 contains 1 samples.
+Beach_Name
+Calumet Beach    8
+Name: count, dtype: int64
+Cluster 251 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 252 contains 1 samples.
+Beach_Name
+Calumet Beach    4
+Name: count, dtype: int64
+Cluster 253 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 254 contains 1 samples.
+Beach_Name
+Calumet Beach    5
+Name: count, dtype: int64
+Cluster 255 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 256 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 257 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 258 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 259 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 260 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 261 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 262 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 263 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 264 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 265 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 266 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 267 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 268 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 269 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 270 contains 1 samples.
+Beach_Name
+Montrose Beach    11
+Name: count, dtype: int64
+Cluster 271 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 272 contains 1 samples.
+Beach_Name
+Montrose Beach    4
+Name: count, dtype: int64
+Cluster 273 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 274 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 275 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 276 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 277 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 278 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 279 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 280 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 281 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 282 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 283 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 284 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 285 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 286 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 287 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 288 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 289 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 290 contains 1 samples.
+Beach_Name
+Montrose Beach    11
+Name: count, dtype: int64
+Cluster 291 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 292 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 293 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 294 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 295 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 296 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 297 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 298 contains 1 samples.
+Beach_Name
+Montrose Beach    10
+Name: count, dtype: int64
+Cluster 299 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 300 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 301 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 302 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 303 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 304 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 305 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 306 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 307 contains 1 samples.
+Beach_Name
+Montrose Beach    10
+Name: count, dtype: int64
+Cluster 308 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 309 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 310 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 311 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 312 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 313 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 314 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 315 contains 1 samples.
+Beach_Name
+Montrose Beach    10
+Name: count, dtype: int64
+Cluster 316 contains 1 samples.
+Beach_Name
+Montrose Beach    10
+Name: count, dtype: int64
+Cluster 317 contains 1 samples.
+Beach_Name
+Montrose Beach    11
+Name: count, dtype: int64
+Cluster 318 contains 1 samples.
+Beach_Name
+Montrose Beach    12
+Name: count, dtype: int64
+Cluster 319 contains 1 samples.
+Beach_Name
+Montrose Beach    10
+Name: count, dtype: int64
+Cluster 320 contains 1 samples.
+Beach_Name
+Montrose Beach    12
+Name: count, dtype: int64
+Cluster 321 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 322 contains 1 samples.
+Beach_Name
+Montrose Beach    11
+Name: count, dtype: int64
+Cluster 323 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 324 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 325 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 326 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 327 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 328 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 329 contains 1 samples.
+Beach_Name
+Montrose Beach    11
+Name: count, dtype: int64
+Cluster 330 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 331 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 332 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 333 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 334 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 335 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 336 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 337 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 338 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 339 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 340 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 341 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 342 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 343 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 344 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 345 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 346 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 347 contains 1 samples.
+Beach_Name
+Montrose Beach    14
+Name: count, dtype: int64
+Cluster 348 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 349 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 350 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 351 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 352 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 353 contains 1 samples.
+Beach_Name
+Montrose Beach    16
+Name: count, dtype: int64
+Cluster 354 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 355 contains 1 samples.
+Beach_Name
+Montrose Beach    15
+Name: count, dtype: int64
+Cluster 356 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 357 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 358 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 359 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 360 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 361 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 362 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 363 contains 1 samples.
+Beach_Name
+Montrose Beach    12
+Name: count, dtype: int64
+Cluster 364 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 365 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 366 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 367 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 368 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 369 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 370 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 371 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 372 contains 1 samples.
+Beach_Name
+Montrose Beach    10
+Name: count, dtype: int64
+Cluster 373 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 374 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 375 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 376 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 377 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 378 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 379 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 380 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 381 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 382 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 383 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 384 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 385 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 386 contains 1 samples.
+Beach_Name
+Montrose Beach    15
+Name: count, dtype: int64
+Cluster 387 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 388 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 389 contains 1 samples.
+Beach_Name
+Montrose Beach    11
+Name: count, dtype: int64
+Cluster 390 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 391 contains 1 samples.
+Beach_Name
+Montrose Beach    19
+Name: count, dtype: int64
+Cluster 392 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 393 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 394 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 395 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 396 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 397 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 398 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 399 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 400 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 401 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 402 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 403 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 404 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 405 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 406 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 407 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 408 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 409 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 410 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 411 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 412 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 413 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 414 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 415 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 416 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 417 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 418 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 419 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 420 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 421 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 422 contains 1 samples.
+Beach_Name
+Montrose Beach    20
+Name: count, dtype: int64
+Cluster 423 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 424 contains 1 samples.
+Beach_Name
+Montrose Beach    11
+Name: count, dtype: int64
+Cluster 425 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 426 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 427 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 428 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 429 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 430 contains 1 samples.
+Beach_Name
+Montrose Beach    9
+Name: count, dtype: int64
+Cluster 431 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 432 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 433 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 434 contains 1 samples.
+Beach_Name
+Montrose Beach    8
+Name: count, dtype: int64
+Cluster 435 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 436 contains 1 samples.
+Beach_Name
+Montrose Beach    7
+Name: count, dtype: int64
+Cluster 437 contains 1 samples.
+Beach_Name
+Montrose Beach    5
+Name: count, dtype: int64
+Cluster 438 contains 1 samples.
+Beach_Name
+Montrose Beach    6
+Name: count, dtype: int64
+Cluster 439 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 440 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 441 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 442 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 443 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 444 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 445 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 446 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 447 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 448 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 449 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 450 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 451 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 452 contains 1 samples.
+Beach_Name
+Ohio Street Beach    48
+Name: count, dtype: int64
+Cluster 453 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 454 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 455 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 456 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 457 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 458 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 459 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 460 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 461 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 462 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 463 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 464 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 465 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 466 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 467 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 468 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 469 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 470 contains 1 samples.
+Beach_Name
+Ohio Street Beach    14
+Name: count, dtype: int64
+Cluster 471 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 472 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 473 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 474 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 475 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 476 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 477 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 478 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 479 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 480 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 481 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 482 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 483 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 484 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 485 contains 1 samples.
+Beach_Name
+Ohio Street Beach    13
+Name: count, dtype: int64
+Cluster 486 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 487 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 488 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 489 contains 1 samples.
+Beach_Name
+Ohio Street Beach    4
+Name: count, dtype: int64
+Cluster 490 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 491 contains 1 samples.
+Beach_Name
+Ohio Street Beach    59
+Name: count, dtype: int64
+Cluster 492 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 493 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 494 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 495 contains 1 samples.
+Beach_Name
+Ohio Street Beach    12
+Name: count, dtype: int64
+Cluster 496 contains 1 samples.
+Beach_Name
+Ohio Street Beach    11
+Name: count, dtype: int64
+Cluster 497 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 498 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 499 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 500 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 501 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 502 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 503 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 504 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 505 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 506 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 507 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 508 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 509 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 510 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 511 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 512 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 513 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 514 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 515 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 516 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 517 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 518 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 519 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 520 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 521 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 522 contains 1 samples.
+Beach_Name
+Ohio Street Beach    19
+Name: count, dtype: int64
+Cluster 523 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 524 contains 1 samples.
+Beach_Name
+Ohio Street Beach    47
+Name: count, dtype: int64
+Cluster 525 contains 1 samples.
+Beach_Name
+Ohio Street Beach    107
+Name: count, dtype: int64
+Cluster 526 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 527 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 528 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 529 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 530 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 531 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 532 contains 1 samples.
+Beach_Name
+Ohio Street Beach    20
+Name: count, dtype: int64
+Cluster 533 contains 1 samples.
+Beach_Name
+Ohio Street Beach    13
+Name: count, dtype: int64
+Cluster 534 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 535 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 536 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 537 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 538 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 539 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 540 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 541 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 542 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 543 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 544 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 545 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 546 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 547 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 548 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 549 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 550 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 551 contains 1 samples.
+Beach_Name
+Ohio Street Beach    12
+Name: count, dtype: int64
+Cluster 552 contains 1 samples.
+Beach_Name
+Ohio Street Beach    11
+Name: count, dtype: int64
+Cluster 553 contains 1 samples.
+Beach_Name
+Ohio Street Beach    47
+Name: count, dtype: int64
+Cluster 554 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 555 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 556 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 557 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 558 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 559 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 560 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 561 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 562 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 563 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 564 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 565 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 566 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 567 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 568 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 569 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 570 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 571 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 572 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 573 contains 1 samples.
+Beach_Name
+Ohio Street Beach    48
+Name: count, dtype: int64
+Cluster 574 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 575 contains 1 samples.
+Beach_Name
+Ohio Street Beach    14
+Name: count, dtype: int64
+Cluster 576 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 577 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 578 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 579 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 580 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 581 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 582 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 583 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 584 contains 1 samples.
+Beach_Name
+Ohio Street Beach    3
+Name: count, dtype: int64
+Cluster 585 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 586 contains 1 samples.
+Beach_Name
+Ohio Street Beach    14
+Name: count, dtype: int64
+Cluster 587 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 588 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 589 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 590 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 591 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 592 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 593 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 594 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 595 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 596 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 597 contains 1 samples.
+Beach_Name
+Ohio Street Beach    21
+Name: count, dtype: int64
+Cluster 598 contains 1 samples.
+Beach_Name
+Ohio Street Beach    71
+Name: count, dtype: int64
+Cluster 599 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 600 contains 1 samples.
+Beach_Name
+Ohio Street Beach    8
+Name: count, dtype: int64
+Cluster 601 contains 1 samples.
+Beach_Name
+Ohio Street Beach    153
+Name: count, dtype: int64
+Cluster 602 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 603 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 604 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 605 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 606 contains 1 samples.
+Beach_Name
+Ohio Street Beach    43
+Name: count, dtype: int64
+Cluster 607 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 608 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 609 contains 1 samples.
+Beach_Name
+Ohio Street Beach    48
+Name: count, dtype: int64
+Cluster 610 contains 1 samples.
+Beach_Name
+Ohio Street Beach    23
+Name: count, dtype: int64
+Cluster 611 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 612 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 613 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 614 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 615 contains 1 samples.
+Beach_Name
+Ohio Street Beach    11
+Name: count, dtype: int64
+Cluster 616 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 617 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 618 contains 1 samples.
+Beach_Name
+Ohio Street Beach    4
+Name: count, dtype: int64
+Cluster 619 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 620 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 621 contains 1 samples.
+Beach_Name
+Ohio Street Beach    12
+Name: count, dtype: int64
+Cluster 622 contains 1 samples.
+Beach_Name
+Ohio Street Beach    18
+Name: count, dtype: int64
+Cluster 623 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 624 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 625 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 626 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 627 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 628 contains 1 samples.
+Beach_Name
+Ohio Street Beach    20
+Name: count, dtype: int64
+Cluster 629 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 630 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 631 contains 1 samples.
+Beach_Name
+Ohio Street Beach    11
+Name: count, dtype: int64
+Cluster 632 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 633 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 634 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 635 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 636 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 637 contains 1 samples.
+Beach_Name
+Ohio Street Beach    23
+Name: count, dtype: int64
+Cluster 638 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 639 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 640 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 641 contains 1 samples.
+Beach_Name
+Ohio Street Beach    23
+Name: count, dtype: int64
+Cluster 642 contains 1 samples.
+Beach_Name
+Ohio Street Beach    12
+Name: count, dtype: int64
+Cluster 643 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 644 contains 1 samples.
+Beach_Name
+Ohio Street Beach    12
+Name: count, dtype: int64
+Cluster 645 contains 1 samples.
+Beach_Name
+Ohio Street Beach    12
+Name: count, dtype: int64
+Cluster 646 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 647 contains 1 samples.
+Beach_Name
+Ohio Street Beach    12
+Name: count, dtype: int64
+Cluster 648 contains 1 samples.
+Beach_Name
+Ohio Street Beach    17
+Name: count, dtype: int64
+Cluster 649 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 650 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 651 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 652 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 653 contains 1 samples.
+Beach_Name
+Ohio Street Beach    4
+Name: count, dtype: int64
+Cluster 654 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 655 contains 1 samples.
+Beach_Name
+Ohio Street Beach    23
+Name: count, dtype: int64
+Cluster 656 contains 1 samples.
+Beach_Name
+Ohio Street Beach    21
+Name: count, dtype: int64
+Cluster 657 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 658 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 659 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 660 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 661 contains 1 samples.
+Beach_Name
+Ohio Street Beach    6
+Name: count, dtype: int64
+Cluster 662 contains 1 samples.
+Beach_Name
+Ohio Street Beach    21
+Name: count, dtype: int64
+Cluster 663 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 664 contains 1 samples.
+Beach_Name
+Ohio Street Beach    5
+Name: count, dtype: int64
+Cluster 665 contains 1 samples.
+Beach_Name
+Ohio Street Beach    12
+Name: count, dtype: int64
+Cluster 666 contains 1 samples.
+Beach_Name
+Ohio Street Beach    13
+Name: count, dtype: int64
+Cluster 667 contains 1 samples.
+Beach_Name
+Ohio Street Beach    7
+Name: count, dtype: int64
+Cluster 668 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 669 contains 1 samples.
+Beach_Name
+Ohio Street Beach    13
+Name: count, dtype: int64
+Cluster 670 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 671 contains 1 samples.
+Beach_Name
+Ohio Street Beach    9
+Name: count, dtype: int64
+Cluster 672 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 673 contains 1 samples.
+Beach_Name
+Ohio Street Beach    21
+Name: count, dtype: int64
+Cluster 674 contains 1 samples.
+Beach_Name
+Ohio Street Beach    71
+Name: count, dtype: int64
+Cluster 675 contains 1 samples.
+Beach_Name
+Ohio Street Beach    11
+Name: count, dtype: int64
+Cluster 676 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 677 contains 1 samples.
+Beach_Name
+Ohio Street Beach    142
+Name: count, dtype: int64
+Cluster 678 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 679 contains 1 samples.
+Beach_Name
+Ohio Street Beach    116
+Name: count, dtype: int64
+Cluster 680 contains 1 samples.
+Beach_Name
+Ohio Street Beach    48
+Name: count, dtype: int64
+Cluster 681 contains 1 samples.
+Beach_Name
+Ohio Street Beach    23
+Name: count, dtype: int64
+Cluster 682 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 683 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 684 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 685 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 686 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 687 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 688 contains 1 samples.
+Beach_Name
+Ohio Street Beach    13
+Name: count, dtype: int64
+Cluster 689 contains 1 samples.
+Beach_Name
+Ohio Street Beach    11
+Name: count, dtype: int64
+Cluster 690 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 691 contains 1 samples.
+Beach_Name
+Ohio Street Beach    18
+Name: count, dtype: int64
+Cluster 692 contains 1 samples.
+Beach_Name
+Ohio Street Beach    16
+Name: count, dtype: int64
+Cluster 693 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 694 contains 1 samples.
+Beach_Name
+Ohio Street Beach    47
+Name: count, dtype: int64
+Cluster 695 contains 1 samples.
+Beach_Name
+Ohio Street Beach    68
+Name: count, dtype: int64
+Cluster 696 contains 1 samples.
+Beach_Name
+Ohio Street Beach    69
+Name: count, dtype: int64
+Cluster 697 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 698 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 699 contains 1 samples.
+Beach_Name
+Ohio Street Beach    28
+Name: count, dtype: int64
+Cluster 700 contains 1 samples.
+Beach_Name
+Ohio Street Beach    39
+Name: count, dtype: int64
+Cluster 701 contains 1 samples.
+Beach_Name
+Ohio Street Beach    10
+Name: count, dtype: int64
+Cluster 702 contains 1 samples.
+Beach_Name
+Ohio Street Beach    11
+Name: count, dtype: int64
+Cluster 703 contains 1 samples.
+Beach_Name
+Ohio Street Beach    22
+Name: count, dtype: int64
+Cluster 704 contains 1 samples.
+Beach_Name
+Ohio Street Beach    24
+Name: count, dtype: int64
+Cluster 705 contains 1 samples.
+Beach_Name
+Ohio Street Beach    14
+Name: count, dtype: int64
+Cluster 706 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 707 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 708 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 709 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 710 contains 1 samples.
+Beach_Name
+Osterman Beach    11
+Name: count, dtype: int64
+Cluster 711 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 712 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 713 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 714 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 715 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 716 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 717 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 718 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 719 contains 1 samples.
+Beach_Name
+Osterman Beach    8
+Name: count, dtype: int64
+Cluster 720 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 721 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 722 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 723 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 724 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 725 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 726 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 727 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 728 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 729 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 730 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 731 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 732 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 733 contains 1 samples.
+Beach_Name
+Osterman Beach    17
+Name: count, dtype: int64
+Cluster 734 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 735 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 736 contains 1 samples.
+Beach_Name
+Osterman Beach    8
+Name: count, dtype: int64
+Cluster 737 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 738 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 739 contains 1 samples.
+Beach_Name
+Osterman Beach    8
+Name: count, dtype: int64
+Cluster 740 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 741 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 742 contains 1 samples.
+Beach_Name
+Osterman Beach    9
+Name: count, dtype: int64
+Cluster 743 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 744 contains 1 samples.
+Beach_Name
+Osterman Beach    15
+Name: count, dtype: int64
+Cluster 745 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 746 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 747 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 748 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 749 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 750 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 751 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 752 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 753 contains 1 samples.
+Beach_Name
+Osterman Beach    9
+Name: count, dtype: int64
+Cluster 754 contains 1 samples.
+Beach_Name
+Osterman Beach    10
+Name: count, dtype: int64
+Cluster 755 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 756 contains 1 samples.
+Beach_Name
+Osterman Beach    10
+Name: count, dtype: int64
+Cluster 757 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 758 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 759 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 760 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 761 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 762 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 763 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 764 contains 1 samples.
+Beach_Name
+Osterman Beach    11
+Name: count, dtype: int64
+Cluster 765 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 766 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 767 contains 2 samples.
+Beach_Name
+Osterman Beach    3
+Rainbow Beach     2
+Name: count, dtype: int64
+Cluster 768 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 769 contains 1 samples.
+Beach_Name
+Osterman Beach    11
+Name: count, dtype: int64
+Cluster 770 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 771 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 772 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 773 contains 1 samples.
+Beach_Name
+Osterman Beach    3
+Name: count, dtype: int64
+Cluster 774 contains 1 samples.
+Beach_Name
+Osterman Beach    11
+Name: count, dtype: int64
+Cluster 775 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 776 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 777 contains 1 samples.
+Beach_Name
+Osterman Beach    15
+Name: count, dtype: int64
+Cluster 778 contains 1 samples.
+Beach_Name
+Osterman Beach    8
+Name: count, dtype: int64
+Cluster 779 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 780 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 781 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 782 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 783 contains 1 samples.
+Beach_Name
+Osterman Beach    11
+Name: count, dtype: int64
+Cluster 784 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 785 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 786 contains 1 samples.
+Beach_Name
+Osterman Beach    9
+Name: count, dtype: int64
+Cluster 787 contains 1 samples.
+Beach_Name
+Osterman Beach    8
+Name: count, dtype: int64
+Cluster 788 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 789 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 790 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 791 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 792 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 793 contains 1 samples.
+Beach_Name
+Osterman Beach    19
+Name: count, dtype: int64
+Cluster 794 contains 1 samples.
+Beach_Name
+Osterman Beach    10
+Name: count, dtype: int64
+Cluster 795 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 796 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 797 contains 1 samples.
+Beach_Name
+Osterman Beach    6
+Name: count, dtype: int64
+Cluster 798 contains 1 samples.
+Beach_Name
+Osterman Beach    10
+Name: count, dtype: int64
+Cluster 799 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 800 contains 1 samples.
+Beach_Name
+Osterman Beach    7
+Name: count, dtype: int64
+Cluster 801 contains 1 samples.
+Beach_Name
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 802 contains 2 samples.
+Beach_Name
+Osterman Beach    4
+Rainbow Beach     2
+Name: count, dtype: int64
+Cluster 803 contains 2 samples.
+Beach_Name
+Rainbow Beach     9
+Osterman Beach    5
+Name: count, dtype: int64
+Cluster 804 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 805 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 806 contains 1 samples.
+Beach_Name
+Rainbow Beach    7
+Name: count, dtype: int64
+Cluster 807 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 808 contains 1 samples.
+Beach_Name
+Rainbow Beach    12
+Name: count, dtype: int64
+Cluster 809 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 810 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 811 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 812 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 813 contains 1 samples.
+Beach_Name
+Rainbow Beach    10
+Name: count, dtype: int64
+Cluster 814 contains 1 samples.
+Beach_Name
+Rainbow Beach    7
+Name: count, dtype: int64
+Cluster 815 contains 1 samples.
+Beach_Name
+Rainbow Beach    9
+Name: count, dtype: int64
+Cluster 816 contains 1 samples.
+Beach_Name
+Rainbow Beach    8
+Name: count, dtype: int64
+Cluster 817 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 818 contains 1 samples.
+Beach_Name
+Rainbow Beach    10
+Name: count, dtype: int64
+Cluster 819 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 820 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 821 contains 1 samples.
+Beach_Name
+Rainbow Beach    16
+Name: count, dtype: int64
+Cluster 822 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 823 contains 1 samples.
+Beach_Name
+Rainbow Beach    8
+Name: count, dtype: int64
+Cluster 824 contains 2 samples.
+Beach_Name
+Rainbow Beach     10
+Osterman Beach     1
+Name: count, dtype: int64
+Cluster 825 contains 1 samples.
+Beach_Name
+Rainbow Beach    9
+Name: count, dtype: int64
+Cluster 826 contains 2 samples.
+Beach_Name
+Rainbow Beach     4
+Osterman Beach    1
+Name: count, dtype: int64
+Cluster 827 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 828 contains 1 samples.
+Beach_Name
+Rainbow Beach    7
+Name: count, dtype: int64
+Cluster 829 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 830 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 831 contains 1 samples.
+Beach_Name
+Rainbow Beach    8
+Name: count, dtype: int64
+Cluster 832 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 833 contains 1 samples.
+Beach_Name
+Rainbow Beach    8
+Name: count, dtype: int64
+Cluster 834 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 835 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 836 contains 1 samples.
+Beach_Name
+Rainbow Beach    11
+Name: count, dtype: int64
+Cluster 837 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 838 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 839 contains 1 samples.
+Beach_Name
+Rainbow Beach    10
+Name: count, dtype: int64
+Cluster 840 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 841 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 842 contains 1 samples.
+Beach_Name
+Rainbow Beach    10
+Name: count, dtype: int64
+Cluster 843 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 844 contains 1 samples.
+Beach_Name
+Rainbow Beach    8
+Name: count, dtype: int64
+Cluster 845 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 846 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 847 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 848 contains 1 samples.
+Beach_Name
+Rainbow Beach    8
+Name: count, dtype: int64
+Cluster 849 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 850 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 851 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 852 contains 1 samples.
+Beach_Name
+Rainbow Beach    7
+Name: count, dtype: int64
+Cluster 853 contains 1 samples.
+Beach_Name
+Rainbow Beach    7
+Name: count, dtype: int64
+Cluster 854 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 855 contains 1 samples.
+Beach_Name
+Rainbow Beach    5
+Name: count, dtype: int64
+Cluster 856 contains 1 samples.
+Beach_Name
+Rainbow Beach    9
+Name: count, dtype: int64
+Cluster 857 contains 1 samples.
+Beach_Name
+Rainbow Beach    6
+Name: count, dtype: int64
+Cluster 858 contains 1 samples.
+Beach_Name
+Rainbow Beach    7
+Name: count, dtype: int64
+
+进程已结束，退出代码为 0
